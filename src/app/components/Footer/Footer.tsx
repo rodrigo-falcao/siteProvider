@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className={styles.contentLeft}>
                         <Image
                         src={logo}
-                        alt=''
+                        alt='Image Logo'
                         />
                         <p>
                             Copyright 2023©  
@@ -22,19 +22,19 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className={styles.contentRight}>
-                        <p>Let's connect</p>
+                        <p>Let&apos;s connect</p>
                         <div>
                             <Image
                             src={linkedin}
-                            alt=''
+                            alt='Image Linkedin'
                             />
                             <Image
                             src={instagram}
-                            alt=''
+                            alt='Image Instagram'
                             />
                             <Image
                             src={facebook}
-                            alt=''
+                            alt='Image Facebook'
                             />
                         </div>
                     </div>

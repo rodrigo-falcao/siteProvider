@@ -19,7 +19,7 @@ const Inputs = () => {
                             </h4>
                         </div>
                         <div className={styles.contentRight}>
-                            <h3>Let's Get <span className={styles.textEffects2}>Started</span></h3>
+                            <h3>Let&apos;s Get <span className={styles.textEffects2}>Started</span></h3>
                             <p>Fusce ac elit et purus tristique tinci dunt .</p>
                             <form action="" className={styles.form}>
                                 <input 

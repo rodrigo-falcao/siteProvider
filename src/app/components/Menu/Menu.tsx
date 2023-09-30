@@ -55,7 +55,7 @@ const Menu = () => {
                                 alt='logo'
                                 />
                                 <h2>Provider for Software Development</h2>
-                                <h4>We're your trusted partner in building 
+                                <h4>We&apos;re your trusted partner in building 
                                     apps and products unique to your business.
                                 </h4>
                             </div>
