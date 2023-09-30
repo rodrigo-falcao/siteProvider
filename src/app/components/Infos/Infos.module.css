@@ -1,0 +1,91 @@
+.background {
+    background: #FFF;
+}
+
+.margin {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 0 120px;
+}
+
+.contentTitle {
+    color: #000;
+    font-family: var(--font-koulen);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 115px;
+}
+
+.textEffects {
+    color: #CD9F19;
+}
+
+.logosComp {
+    display: flex;
+    align-items: center;
+}
+
+.logosLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.logosLine img {
+    width: 100px;
+    height: 100px;
+}
+
+.logosLine p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: var(--font-cairo);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        padding: 0 20px;
+    }
+    .contentTitle {
+        font-size: 40px;
+        padding-top: 385px;
+        text-align: center;
+    }
+    .logosComp {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    .logosLine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .logosLine img {
+        width: 70px;
+        height: 70px;
+    }
+    .logosLine p {
+        font-size: 20px;
+        padding-bottom: 35px;
+    }
+}

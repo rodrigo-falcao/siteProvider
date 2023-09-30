@@ -1,0 +1,158 @@
+.background {
+    position: relative;
+    background-image: url(../../../../public//images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.90); 
+    pointer-events: none;
+}
+
+.root {
+    position: relative;
+}
+
+.margin {
+    max-width: 1728px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 0 120px;
+}
+
+.content h3 {
+    font-family: var(--font-koulen);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    padding: 50px 0;
+}
+
+.textEffect {
+    color: #DFBA14;
+}
+
+.contentPrinc {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 169px;
+}
+
+.contentCard {
+    width: 440px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFF;
+    margin-bottom: 56px;
+    cursor: pointer;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.contentCard:hover {
+    background-color: #DFBA14;
+    box-shadow: 0px 15px 15px 0px rgba(223, 186, 20, 1);
+}
+
+.cardText {
+    padding: 10px 25px;
+    color: #000;
+}
+
+.cardText:hover h4 {
+    color: #FFF;
+}
+
+.cardText:hover p {
+    color: #FFF;
+}
+
+.cardTitle {
+    display: flex;
+    align-items: center;
+}
+
+.cardTitle h4 {
+    font-family: var(--font-koulen);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cardText p {
+    font-family: var(--font-cairo);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        padding: 0 20px;
+    }
+    .content h3 {
+        font-size: 30px;
+        padding: 50px 0;
+        text-align: center;
+        padding-top: 110px;
+    }
+
+    .contentPrinc {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+
+    .borderMobile {
+        border: 1px solid rgba(0, 0, 0);
+    }
+
+    .contentCard {
+        width: 290px;
+        border-radius: 20px;
+        border: none;
+        background-color: #FFF;
+        margin-bottom: 46px;
+    }
+
+    .cardTitle h4 {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+
+    .cardTitle img {
+        width: 35px;
+        height: 35px;
+    }
+    .cardText p {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .contentLeft, .contentCenter, .contentRight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
