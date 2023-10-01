@@ -17,7 +17,7 @@ const Footer = () => {
                         />
                         <p>
                             Copyright 2023©  
-                            Flash Computing.Ltd. | 
+                            Emp Computing.Ltd. | 
                             All Rights Reserved
                         </p>
                     </div>

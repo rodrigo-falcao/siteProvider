@@ -21,7 +21,7 @@ function Header() {
                             src={emailLogo}
                             alt='logoEmail'
                         />
-                        <p>info@flashcomputing.com</p>
+                        <p>info@empcomputing.com</p>
                     </div>
                     <Image
                         className={styles.lineMobile}
