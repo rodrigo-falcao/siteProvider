@@ -19,12 +19,11 @@ const MenuMobile = () => {
 
     useEffect(() => {
         if (menuOpen) {
-            document.body.style.overflow = 'hidden'; // Desativa a rolagem quando o menu estiver aberto
+            document.body.style.overflow = 'hidden';
         } else {
-            document.body.style.overflow = 'auto';   // Reativa a rolagem quando o menu estiver fechado
+            document.body.style.overflow = 'auto'; 
         }
     
-        // Limpeza ao desmontar o componente
         return () => {
             document.body.style.overflow = 'auto'; 
         };
